@@ -1,0 +1,49 @@
+.feature .box{
+    padding: 50px;
+}
+.feature .box h2{
+    margin: 20px 0;
+}
+.feature .box p{
+    word-spacing: 2px;
+    transition: 0.5s;
+}
+.feature .box i{
+    font-size: 30px;
+    margin-top: 20px;
+    transition: 0.5s;
+    opacity: 0;
+}
+.feature .box:hover p{
+    color: #fff;
+}
+.feature .box:hover i{
+    opacity: 1;
+    color: #fff;
+}
+
+@media screen and (min-width:992px) and (max-width: 1080px) {
+    .feature .box {
+        padding: 40px;
+    }
+    .feature .box h2 {
+        margin: 15px 0;
+    }
+}
+@media screen and (min-width:768px) and (max-width: 991px) {
+    .feature .box {
+        padding: 35px;
+    }
+    .feature .box h2 {
+        margin: 20px 0;
+    }
+    .feature .box i {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width:280px) and (max-width: 767px) {
+    .feature .box {
+        padding: 30px;
+    }
+}

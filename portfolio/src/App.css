@@ -74,3 +74,45 @@ button {
 .mtop{
   margin-top: 40px;
 }
+.heading{
+  margin: 50px 0;
+}
+.heading h4{
+  color: #ff014f;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.heading h1{
+  font-size: 60px;
+  color: #3c3e41;
+}
+h1{
+  color: #3c3e41; 
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+.text-center{
+  text-align: center;
+}
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+  .grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .left,
+  .right{
+    width: 100%;
+  }
+}
+@media screen and (min-width:300px) and (max-width: 767px) {
+  .grid{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .left,
+  .right{
+    width: 100%;
+  }
+}
