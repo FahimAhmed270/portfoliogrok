@@ -6,9 +6,9 @@ import logo from "../pic/logo.png"
 const Header = () => {
   //fixed header
 
-  window.addEventListener('scroll', function(){
-    const header = this.document.querySelector('.header')
-    header.classList.toggle('active', this.window.screenY > 100)
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector(".header")
+    header.classList.toggle("active", window.scrollY > 80)
   })
 
   //mobile toggle 

@@ -12,7 +12,7 @@ body {
   background-color: #ecf0fc;
 }
 .container {
-  max-width: 95%;
+  max-width: 90%;
   margin: auto;
 }
 .d_flex {
@@ -48,7 +48,6 @@ button {
   transition: 0.3s all ease;
   cursor: pointer;
   color: #000;
-  transition: 0.5s;
 }
 .btn_shadow {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
@@ -63,4 +62,15 @@ button {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
+}
+.row,
+.left,
+.right{
+  width: 50%;
+}
+.top{
+  margin-top: 80px;
+}
+.mtop{
+  margin-top: 40px;
 }
