@@ -4,6 +4,7 @@ import './App.css'
 import Home from './Component/Home/Home'
 import Feature from './Component/Feature/Feature'
 import Portfolio from './Component/Portfolio/Portfolio'
+import Resume from './Component/Resume/Resume'
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Home/>
       <Feature/>
       <Portfolio/>
+      <Resume/>
     </div>
   )
 }

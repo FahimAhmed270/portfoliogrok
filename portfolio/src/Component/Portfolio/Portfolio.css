@@ -1,66 +1,73 @@
-.portfolio{
+.Portfolio {
     position: relative;
-}
-.portfolio .box{
-    position: relative;
+  }
+  .Portfolio .box {
     border-radius: 10px;
-}
-.portfolio .box:hover{
+    position: relative;
+  }
+  .Portfolio .box:hover {
     background: none;
     transform: translateY(-0);
-}
-.portfolio .img{
+  }
+  
+  .Portfolio .img {
     height: 300px;
     overflow: hidden;
-    transition: 0.5s ease;
-}
-.portfolio .img img{
+    transition: 0.5s;
+  }
+  .Portfolio img {
     width: 100%;
     border-radius: 10px;
-    transition: 0.5s ease;
-}
-.portfolio .box .img:hover img{
-transform: scale(1.1);
-}
-.portfolio .categoty{
-    margin: 20px 0;
-}
-.portfolio .categoty span{
+    transition: 0.5s;
+  }
+  .Portfolio .box .img:hover img {
+    transform: scale(1.1);
+  }
+  .Portfolio .category {
+    margin: 20px 0 30px 0;
+    text-transform: uppercase;
+  }
+  .Portfolio .category span {
     color: #ff014f;
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: 500;
-}
-.portfolio .arrow{
+  }
+  .Portfolio .arrow {
+   
+   
     transform: rotate(-45deg);
     color: #ff014f;
-    
     transition: 0.5s;
-}
-/* .portfolio .title:hover.arrow{
+  }
+  /* .Portfolio .title:hover .arrow {
     opacity: 1;
-} */
-.portfolio h2{
+  } */
+  .Portfolio h2 {
     font-size: 18px;
     transition: 0.5s;
     padding-bottom: 30px;
-}
-.portfolio .box:hover h2{
+  }
+  .Portfolio .box:hover h2 {
     color: #ff014f;
-}
-.portfolio .box:hover{
-    color: #000;
-}
-
-/* popup modal design */
-
-.btn-modal {
+  }
+  .Portfolio .box:hover {
+    color: black;
+  }
+  /*------------popup--------*/
+  body.active-modal {
+    overflow-y: hidden;
+  }
+  
+  .btn-modal {
     padding: 10px 20px;
     display: block;
     margin: 100px auto 0;
     font-size: 18px;
-}
-.modal, .overlay{
+  }
+  
+  .modal,
+  .overlay {
     width: 100vw;
     height: 100vh;
     top: 0;
@@ -69,16 +76,17 @@ transform: scale(1.1);
     bottom: 0;
     position: fixed;
     z-index: 9999;
-}
-.overlay{
-    background: #ecf0f3;
-}
-.madal-content{
+  }
+  
+  .overlay {
+    background-color: #ecf0f3;
+  }
+  .modal-content {
     position: absolute;
     top: 12%;
     left: 8%;
     line-height: 1.4;
-    background-color: #f0f3f5;
+    background: #f0f3f5;
     padding: 14px 28px;
     border-radius: 3px;
     max-width: 85%;
@@ -87,4 +95,110 @@ transform: scale(1.1);
     box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
     padding: 50px;
     border-radius: 10px;
-}
+  }
+  
+  .modal-text {
+    padding: 0 50px 0 50px;
+  }
+  .modal-text h1 {
+    margin: 20px 0 20px 0;
+    font-size: 30px;
+  }
+  .modal-text p {
+    font-size: 17px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+  .modal-text button {
+    margin-right: 20px;
+    color: #ff014f;
+  }
+  .modal-text button i {
+    margin-left: 10px;
+  }
+  .modal-text button.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0 0;
+    font-size: 20px;
+  }
+  .modal-text button.close-modal i {
+    margin: 0;
+  }
+  /*------------popup--------*/
+  @media screen and (min-width:992px) and (max-width:1080px) {
+    .modal-text {
+      padding: 0 0px 0 50px;
+    }
+    .modal-text h1 {
+      font-size: 27px;
+    }
+    .modal-text p {
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:991px) {
+    .modal,
+    .overlay {
+      overflow: scroll;
+    }
+    .modal-text {
+      padding: 0 0px 0 30px;
+    }
+    .modal-text h1 {
+      font-size: 25px;
+    }
+    .modal-text p {
+      font-size: 15px;
+      line-height: 20px;
+    }
+  }
+  @media screen and (min-width:300px) and (max-width:767px) {
+    .modal,
+    .overlay {
+      overflow: scroll;
+    }
+    .modal .modal-img {
+      margin: 50px 0;
+    }
+    .modal-content {
+      flex-direction: column;
+      padding: 30px;
+    }
+    .modal-text {
+      padding: 0 0px 0 20px;
+    }
+    .modal-text h1 {
+      font-size: 25px;
+  }
+  .modal-text p {
+    font-size: 15px;
+    
+  }
+  }
+
+
+
+  /* @media (max-width: 768px) {
+    .modal,
+    .overlay {
+      overflow: scroll;
+    }
+  
+    .modal .modal-img {
+      margin: 50px 0 50px 0;
+    }
+    .modal-content {
+      flex-direction: column;
+    }
+    .modal .right,
+    .modal .left {
+      padding: 0;
+    }
+  } */
