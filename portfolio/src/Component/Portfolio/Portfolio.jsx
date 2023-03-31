@@ -1,8 +1,10 @@
 import React from 'react'
 import Card from './Card'
 import Portfolio_data from './Portfolio_data'
+import './Portfolio.css'
 
 const Portfolio = () => {
+  
   return (
     <>
       <section className="portfolio top" id="portfolio">
@@ -14,7 +16,7 @@ const Portfolio = () => {
               <div className="content grid">
                 {Portfolio_data.map((value, index)=>{
                     return (
-                        <Card key={index} image={value.image} catrgory={value.category} totalLike={value.totalLike} title={value.title} />
+                        <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} />
                     )
                 })}
               </div>
