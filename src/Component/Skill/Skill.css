@@ -1,0 +1,11 @@
+.skill-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+}
+.skill-span{
+    margin: 10px 0;
+}
+p{
+    padding: 10px 0;
+}

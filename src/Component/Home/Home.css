@@ -1,0 +1,131 @@
+.home{
+    position: relative;
+}
+.home h3{
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.home h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.home h1 span{
+    color: #ff014f;
+}
+.home h2{
+   font-size: 50px;
+   font-weight: bold;
+   color: #ff014f;
+}
+.home h2 span{
+    color: #FE6244;
+}
+.home p{
+    color: #878e99;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.home_btn{
+    margin-top: 20%;
+}
+.home_btn h4{
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #43474b;
+    font-size: 15px;
+    margin: 30px 0;
+}
+.home_btn button{
+    margin-right: 30px;
+}
+.home_btn i{
+    font-size: 20px;
+}
+.home_btn button img{
+    width: 20px;
+    height: 20px;
+}
+.home .left{
+    margin-right: 10%;
+}
+.home .right{
+    width: 40%;
+    position: relative;
+}
+.home .right_img{
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border-radius: 10px;
+  height: 480px;
+  width: 400px;
+  margin-top: 20px;
+}
+.home .right_img img{
+    position: absolute;
+    top: 0;
+    /* right: 10%; */
+    height: 80%;
+    object-fit: contain;
+    width: 400px;
+}
+@media screen and (min-width:992px) and (max-width: 1080px) {
+    .home h1 {
+        font-size: 55px;
+    }
+    .home h2 {
+        font-size: 40px;
+    }
+    .home_btn button {
+        margin-right: 14px;
+    }
+    .home .right_img {
+        height: 500px;
+        width: 400px;
+    }
+    .home .right_img img {
+        width: 400px;
+    }
+}
+@media screen and (min-width:400px) and (max-width: 991px) {
+    .home .left {
+      width: 100%;
+      margin-left: 20px;
+    }
+    .home .right{
+        max-width: 80%;
+        margin: auto;
+    }
+    .home .f_flex {
+      flex-direction: column;
+      flex-direction: column-reverse;
+    }
+    .home h1 {
+        font-size: 35px;
+    }
+    .home h2 {
+        font-size: 30px;
+    }
+    .home p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .home_btn {
+        margin-top: 10%;
+    }
+    .btn_shadow {
+        padding: 15px;
+    }
+    .home_btn button {
+        margin-right: 17px;
+    }
+    .home .right_img img {
+        width: 100%;
+        height: 100%;
+    }
+    .home .right_img {
+      width: 97%;
+      height: 54vh;
+      
+    }
+  }
