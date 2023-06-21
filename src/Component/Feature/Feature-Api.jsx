@@ -15,31 +15,31 @@ const data = [
     id: 2,
     icon: <SiTailwindcss />,
     title: "React Tailwind CSS Web Application ",
-    desc: " It uses a dictionary of over 200 Latin words, combined witha handful of model sentence.",
+    desc: "Modern utility-first CSS framework which to rapidly build responsive and customizable user interfaces",
   },
   {
     id: 3,
     icon: <FiShoppingCart/>,
     title: "Full Funcationally eCommerce Store",
-    desc: "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+    desc: "Created a fully functional eCommerce Store to call data in REST APIs & custom API or database",
   },
   {
     id: 4,
     icon: <TbBrandRedux/>,
     title: "React Redux Toolkit",
-    desc: "There are many variations of passages of Lorem Ipsum	available, but the majority.",
+    desc: "Managed react state component using react-redux toolkit which is very easy to maintain and do function activity in web application",
   },
   {
     id: 5,
     icon: <FaSass/>,
     title: "React SASS Styles",
-    desc: "always free from repetition, injected humour, or non-characteristic words etc.",
+    desc: "CSS preprocessor that allows developers to write more maintainable and reusable stylesheets",
   },
   {
     id: 6,
     icon: <TbApi/>,
-    title: "API to Database",
-    desc: " It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
+    title: "Fetch data from API",
+    desc: "Fetch data from API or database and show data in user-friendly & functional UI",
   },
 ]
 export default data

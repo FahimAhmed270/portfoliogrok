@@ -7,7 +7,7 @@ const Portfolio = () => {
   
   return (
     <>
-      <section className="Portfolio top" id="portfolio">
+      <section className="Portfolio top" id="#project">
           <div className="container">
               <div className="heading text-center">
                 <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
