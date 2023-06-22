@@ -109,13 +109,15 @@
   }
   .modal-text p {
     font-size: 17px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     line-height: 25px;
   }
+  
   .modal-text button {
     margin-right: 20px;
     color: #ff014f;
   }
+
   .modal-text button i {
     margin-left: 10px;
   }

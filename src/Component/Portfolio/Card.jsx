@@ -4,7 +4,7 @@ const Card = (props) => {
 
   const [modal, setModal] = useState(false)
 
-  const toggleModal=()=>{
+  const toggleModal = () => {
     setModal(!modal)
   }
 
@@ -14,23 +14,23 @@ const Card = (props) => {
     document.body.classList.remove("active-modal")
   }
 
-  
+
   return (
     <>
       <div className="box btn_shadow">
         <div className="img">
-          <img src={props.image} alt="" onClick={toggleModal}/>
+          <img src={props.image} alt="" onClick={toggleModal} />
         </div>
         <div className="category d_flex">
           <span onClick={toggleModal}>{props.category}</span>
           <label htmlFor="">
-          <i className='far fa-heart'></i> {props.totalLike}
+            <i className='far fa-heart'></i> {props.totalLike}
           </label>
         </div>
         <div className="title d_flex">
           <h2 onClick={toggleModal}>{props.title}</h2>
-          <a href="#popup" className='arrow ' onClick={toggleModal}>
-          <i className='fas fa-arrow-right'></i>
+          <a href="#popup" className='arrow' onClick={toggleModal}>
+            <i className='fas fa-arrow-right'></i>
           </a>
         </div>
       </div>
@@ -47,15 +47,19 @@ const Card = (props) => {
             <div className='modal-text right'>
               <span>Featured - Design</span>
               <h1>{props.title}</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
-              <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
+              <p>{props.des}</p>
               <div className='button f_flex mtop'>
-                <button className='btn_shadow'>
-                  LIKE THIS <i className='far fa-thumbs-up'></i>
-                </button>
-                <button className='btn_shadow'>
-                  VIEW PROJECT<i className='fas fa-chevron-right'></i>
-                </button>
+                <a href={props.website} target='_blank'>
+                  <button className='btn_shadow'>
+                    LIVE WEBSITE
+                    <i className='far fa-thumbs-up'></i>
+                  </button>
+                </a>
+                <a href={props.github} target='_blank'>
+                  <button className='btn_shadow'>
+                    SEE WEBSITE CODE<i className='fas fa-chevron-right'></i>
+                  </button>
+                </a>
               </div>
               <button className='close-modal btn_shadow' onClick={toggleModal}>
                 <i className='fas fa-times'></i>

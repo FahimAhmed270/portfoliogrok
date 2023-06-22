@@ -5,6 +5,9 @@ const Portfolio_data = [
       totalLike: "600",
       title: "Full Functional Ecommerce Website",
       image: "https://cdn.dribbble.com/userupload/7992041/file/original-14ba77e3ee88b83b750503d62a75334c.png?compress=1&resize=1024x1780",
+      des:'Fully functional eCommerce website which is very suitable on your business. What type of features are used to make website take a look :',
+      website:'https://sylhetmart.netlify.app/',
+      github:'https://github.com/FahimAhmed270/dept_shop',  
     },
     {
       id: 2,
@@ -12,6 +15,9 @@ const Portfolio_data = [
       totalLike: "750",
       title: "Women Cosmatic Website",
       image: "https://cdn.dribbble.com/userupload/7992163/file/original-07e233dfdd970a937dd48417c33721fe.png?compress=1&resize=1024x2334",
+      des:'Women cosmetic websites which sell your product online',
+      website:'https://fahimahmed270.github.io/woman/',
+      github:'https://github.com/FahimAhmed270/woman',
     },
     {
       id: 3,
@@ -19,6 +25,9 @@ const Portfolio_data = [
       totalLike: "630",
       title: "Binjan Portfolio Website",
       image: "https://cdn.dribbble.com/userupload/7991971/file/original-996c7440f62f497053b4b7515a9c304b.png?compress=1&resize=752x",
+      des:'Awesome animated portfolio website',
+      website:'https://binjan.netlify.app/',
+      github:'https://github.com/FahimAhmed270/binjan',
     },
     {
       id: 4,
@@ -26,6 +35,9 @@ const Portfolio_data = [
       totalLike: "360",
       title: "Business Landing Page",
       image: "https://cdn.dribbble.com/userupload/7992010/file/original-f6b8a06264764bfa58a2cdac319b707e.png?compress=1&resize=1024x6914",
+      des: 'Business related landing page webiste to show our puropose of business',
+      website: 'https://fahimlandingpage.netlify.app/',
+      github: 'https://github.com/FahimAhmed270/binjan',
     },
     {
       id: 5,
