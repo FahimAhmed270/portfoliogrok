@@ -37,7 +37,7 @@ const Portfolio_data = [
       image: "https://cdn.dribbble.com/userupload/7992010/file/original-f6b8a06264764bfa58a2cdac319b707e.png?compress=1&resize=1024x6914",
       des: 'Business related landing page webiste to show our puropose of business',
       website: 'https://fahimlandingpage.netlify.app/',
-      github: 'https://github.com/FahimAhmed270/binjan',
+      github: 'https://github.com/FahimAhmed270/landing_page',
     },
     {
       id: 5,
@@ -45,6 +45,9 @@ const Portfolio_data = [
       totalLike: "280",
       title: "Furniture Website",
       image: "https://cdn.dribbble.com/userupload/7989699/file/original-6e60d8fc622da8a55b9e2a0c92f01a75.png?compress=1&resize=752x",
+      des: 'Furniture Website with tailwind css, swiper slider, modern UI design that is compatible with your business',
+      website: 'https://furnshop.netlify.app/',
+      github: 'https://github.com/FahimAhmed270/furnshop',
     },
     {
       id: 6,
@@ -52,6 +55,9 @@ const Portfolio_data = [
       totalLike: "690",
       title: "Facebook Clone",
       image: "https://cdn.dribbble.com/userupload/7992064/file/original-33e19c5d9c62277bed0fe2dc60725345.png?compress=1&resize=752x",
+      des: 'Facebook clone with material UI, clickable avater, dark & light mode, material UI card, image card and more',
+      website: 'https://fahimahmed270.github.io/facebookmui/',
+      github: 'https://github.com/FahimAhmed270/facebookmui',
     },
     {
       id: 7,
@@ -59,13 +65,19 @@ const Portfolio_data = [
       totalLike: "600",
       title: "MUI Landing Page Design",
       image: "https://cdn.dribbble.com/userupload/7992095/file/original-2334e53501e2c701a9e6b90168f4eee2.png?compress=1&resize=752x",
+      des: 'Simple landing page design using material UI for my practice purposes',
+      website: 'https://fahimahmed270.github.io/mui/',
+      github: 'https://github.com/FahimAhmed270/mui',
     },
     {
       id: 8,
       category: "Tailwind CSS",
       totalLike: "750",
-      title: "Photo Graphy Portfolio Website",
+      title: "Photographic Portfolio Website",
       image: "https://cdn.dribbble.com/userupload/7992113/file/original-27f472ca0a580a6f43b5f783589ba7b0.png?compress=1&resize=1024x1882",
+      des: 'Photographic portfolio website using tailwind css, framer motion and cursor follow the bubble that is  showcase your previous experience',
+      website: 'https://photographiclee.netlify.app/',
+      github: 'https://github.com/FahimAhmed270/photographic',
     },
     {
       id: 9,
@@ -73,6 +85,9 @@ const Portfolio_data = [
       totalLike: "630",
       title: "Freelancer Portfolio Website",
       image: "https://cdn.dribbble.com/userupload/7992132/file/original-5cb24dd83af46ae24698e0b899a19e6c.png?compress=1&resize=1024x4378",
+      des: 'Freelancer portfolio website using tailwind css, framer motion and cursor follow the bubble that is  showcase your previous experience',
+      website: 'https://fahimahmed270.github.io/portfolio/',
+      github: 'https://github.com/FahimAhmed270/portfolio',
     },
     {
       id: 10,
@@ -80,6 +95,9 @@ const Portfolio_data = [
       totalLike: "360",
       title: "Movie Database",
       image: "https://cdn.dribbble.com/userupload/7939675/file/original-b8bf4342b01488b705b0892d267bef81.png?compress=1&resize=752x",
+      des: 'A movie database website using the react-redux toolkit is an easy way to manage the state of the website. Search any movie or tv show and get the result',
+      website: 'https://movieapiredux.netlify.app/',
+      github: 'https://github.com/FahimAhmed270/youtube_redux',
     },
     {
       id: 11,
@@ -87,6 +105,9 @@ const Portfolio_data = [
       totalLike: "280",
       title: "NFT Landing Page",
       image: "https://cdn.dribbble.com/userupload/7992180/file/original-de6fb1531f2a00c48aae642dd1fe025f.png?compress=1&resize=1024x3526",
+      des: 'NFT website for operating nft business that kind of business makes a landing page, including dark & light mode',
+      website: 'https://fahimahmed270.github.io/NFT/',
+      github: 'https://github.com/FahimAhmed270/NFT',
     },
     {
       id: 12,
@@ -94,6 +115,9 @@ const Portfolio_data = [
       totalLike: "690",
       title: "Real State Website",
       image: "https://cdn.dribbble.com/userupload/7992208/file/original-04faf80b9ddfd62514a30c747e667885.png?compress=1&resize=752x",
+      des: 'Real state website that is included search bar, property details, location, agents details, packages and more. ',
+      website: 'https://realesate.netlify.app/',
+      github: 'https://github.com/FahimAhmed270/real_estate',
     },
     {
       id: 13,
@@ -101,9 +125,10 @@ const Portfolio_data = [
       totalLike: "360",
       title: "Airbnb Clone",
       image: "https://cdn.dribbble.com/userupload/7992230/file/original-fe98935468171e1a49bcf9c2611f9b60.png?compress=1&resize=1024x1663",
+      des: 'Airbnb clone with material ui different components such as button, card, tabs component.',
+      website: 'https://airbnbrental.netlify.app/',
+      github: 'https://github.com/FahimAhmed270/airbnb',
     },
   ]
   export default Portfolio_data
 
-
-  // https://cdn.dribbble.com/userupload/7939675/file/original-b8bf4342b01488b705b0892d267bef81.png?compress=1&resize=752x
