@@ -1,7 +1,6 @@
 import React from 'react'
 import './Skill.css'
 import ProgressBar from "@ramonak/react-progress-bar";
-import { motion } from 'framer-motion';
 
 const Skill = () => {
     return (
@@ -9,66 +8,66 @@ const Skill = () => {
             <section>
                 <div className="container">
                     <div className="heading text-center">
-                        <h4>7+ YEARS OF EXPERIENCE</h4>
+                        <h4>2+ YEARS OF EXPERIENCE</h4>
                         <h1>My Skills</h1>
                     </div>
                     <div className="skill-content">
                         <div className="design">
                             <div className="skill-span">
-                                <p>Photoshop</p>
+                                <p>HTML</p>
                                 <ProgressBar
-                                    completed={85}
+                                    completed={95}
                                     bgColor='#ff014f'
                                 />
                             </div>
                             <div className="skill-span">
-                                <p>Photoshop</p>
+                                <p>CSS</p>
                                 <ProgressBar
-                                    completed={85}
+                                    completed={89}
                                     bgColor='#ff014f'
                                 />
                             </div>
                             <div className="skill-span">
-                                <p>Photoshop</p>
+                                <p>JavaScript</p>
                                 <ProgressBar
-                                    completed={85}
+                                    completed={83}
                                     bgColor='#ff014f'
                                 />
                             </div>
                             <div className="skill-span">
-                                <p>Photoshop</p>
+                                <p>Bootstrap</p>
                                 <ProgressBar
-                                    completed={85}
+                                    completed={80}
                                     bgColor='#ff014f'
                                 />
                             </div>
-                        </div>
+                        </div>     
                         <div className="development">
                             <div className="skill-span">
-                                <p>Photoshop</p>
+                                <p>React</p>
                                 <ProgressBar
-                                    completed={85}
+                                    completed={80}
                                     bgColor='#ff014f'
                                 />
                             </div>
                             <div className="skill-span">
-                                <p>Photoshop</p>
+                                <p>Material UI</p>
                                 <ProgressBar
-                                    completed={85}
+                                    completed={60}
                                     bgColor='#ff014f'
                                 />
                             </div>
                             <div className="skill-span">
-                                <p>Photoshop</p>
+                                <p>Tailwind CSS</p>
                                 <ProgressBar
-                                    completed={85}
+                                    completed={78}
                                     bgColor='#ff014f'
                                 />
                             </div>
                             <div className="skill-span">
-                                <p>Photoshop</p>
+                                <p>Redux Toolkit</p>
                                 <ProgressBar
-                                    completed={85}
+                                    completed={53}
                                     bgColor='#ff014f'
                                 />
                             </div>

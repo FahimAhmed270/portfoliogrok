@@ -2,18 +2,18 @@ const ResumeApi = [
     {
       id: 1,
       category: "education",
-      year: "University of DVI (1997 - 2001)",
-      title: "Personal Portfolio April Fools",
-      desc: "The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-      rate: "4.30/5",
+      year: "(2015 - 2020)",
+      title: "National University ",
+      desc: "I completed my 4 year bachelor's degree at National University. My college name is Modon Mohan College and my subject is management",
+      rate: "3/4",
     },
     {
       id: 4,
       category: "experience",
-      year: "BSE In CSE (2004 - 2008) ",
-      title: "Diploma in Web Development",
-      desc: "Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-      rate: "4.70/5 ",
+      year: "Times IT (11/2022 - 2/2023) ",
+      title: "3 Month internship",
+      desc: "Designed web application using React, adhering to best practices and coding standards.",
+      rate: "5/5 ",
     },
   ]
   
