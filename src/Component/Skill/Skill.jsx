@@ -5,8 +5,8 @@ import ProgressBar from "@ramonak/react-progress-bar";
 const Skill = () => {
     return (
         <>
-            <section>
-                <div className="container">
+            <section id='skill' className='skill'>
+                <div className="container top">
                     <div className="heading text-center">
                         <h4>2+ YEARS OF EXPERIENCE</h4>
                         <h1>My Skills</h1>
@@ -80,8 +80,3 @@ const Skill = () => {
 }
 
 export default Skill
-
-
-// initial = {{ x: "-100%", opacity: 0 }}
-// animate = {{ x: 0, opacity: 1 }}
-// transition = {{ duration: 0.5, delay: 0.5 }}

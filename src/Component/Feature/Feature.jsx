@@ -6,7 +6,7 @@ import Card from './Card'
 const Feature = () => {
   return (
     <>
-      <section className="feature top" id="feature">
+      <section className="feature top" id="features">
           <div className="container">
               <div className="heading">
                   <h4>Features</h4>

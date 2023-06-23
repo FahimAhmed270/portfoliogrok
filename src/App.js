@@ -6,6 +6,7 @@ import Feature from './Component/Feature/Feature'
 import Portfolio from './Component/Portfolio/Portfolio'
 import Resume from './Component/Resume/Resume'
 import Skill from './Component/Skill/Skill'
+import Contact from './Component/Contact/Contact'
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Portfolio/>
       <Resume/>
       <Skill/>
+      <Contact/>
     </div>
   )
 }
