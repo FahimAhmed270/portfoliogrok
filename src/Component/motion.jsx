@@ -1,7 +1,7 @@
 export const header = {
     hidden: {
         opacity: 0,
-        y: -50,
+        y: -30,
         transition: {
             type: "spring",
             stiffness: 300,
@@ -14,7 +14,7 @@ export const header = {
         transition: {
             type: "spring",
             stiffness: 80,
-            delay: 0.5,
+           
         },
     },
 }

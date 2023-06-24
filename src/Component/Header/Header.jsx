@@ -1,6 +1,8 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { header } from '../motion'
 import { motion } from 'framer-motion'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import './Header.css'
 import logo from "../pic/2.png"
@@ -17,14 +19,19 @@ const Header = () => {
 
   const [mobile, setMobile] = useState(false)
 
+  // AOS
+  useEffect(() => {
+    AOS.init()
+  }, [])
+
   return (
     <>
-      <motion.header
-        initial="hidden"
-        whileInView="show"
-        variants={header}
-        viewport={{ once: true, amount: 0.25 }}
-        className="header">
+      <header
+        data-aos="fade-down"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        className="header" >
         <div className="container d_flex">
           <div className="logo">
             <img src={logo} alt="" />
@@ -44,7 +51,7 @@ const Header = () => {
             </button>
           </div>
         </div>
-      </motion.header>
+      </header>
     </>
   )
 }

@@ -14,10 +14,13 @@ const Card = (props) => {
     document.body.classList.remove("active-modal")
   }
 
-
   return (
     <>
-      <div className="box btn_shadow">
+      <div
+       data-aos="zoom-in"
+       data-aos-mirror="true"
+       data-aos-easing="linear"
+      className="box btn_shadow">
         <div className="img">
           <img src={props.image} alt="" onClick={toggleModal} />
         </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Home.css'
 import hero from "../pic/1.png"
 import skill1 from "../pic/skill1.png"
@@ -8,17 +8,30 @@ import { Typewriter } from 'react-simple-typewriter'
 import { TbBrandFiverr } from 'react-icons/tb'
 import { SiUpwork } from 'react-icons/si'
 import { BsGithub } from 'react-icons/bs'
-import { home } from '../motion'
-import { motion } from 'framer-motion'
+// import { home } from '../motion'
+// import { motion } from 'framer-motion'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Home = () => {
+
+  // AOS
+  useEffect(() => {
+    AOS.init()
+  }, [])
+
   return (
     <>
       <section
-      className="home" id="home">
+        className="home" id="home">
         <div className="container top f_flex">
-          <motion.div
-           className="left top">
+          <div
+          data-aos="fade-right"
+          data-aos-delay="60"
+          data-aos-duration="1200"
+          data-aos-mirror="true"
+          data-aos-easing="linear"
+            className="left top">
             <h3>WELCOME TO MY WORLD</h3>
             <h1>I'm <span>Fahim Ahmed</span></h1>
             <h2> a <span>
@@ -39,9 +52,9 @@ const Home = () => {
                 <h4>FIND WITH ME</h4>
                 <div className="button">
                   <a href="https://www.fiverr.com/fahim_ahmed_pro?up_rollout=true">
-                  <button className="btn_shadow">
-                    <TbBrandFiverr />
-                  </button>
+                    <button className="btn_shadow">
+                      <TbBrandFiverr />
+                    </button>
                   </a>
                   <button className="btn_shadow">
                     <SiUpwork />
@@ -64,8 +77,14 @@ const Home = () => {
                 </button>
               </div>
             </div>
-          </motion.div>
-          <div className="right">
+          </div>
+          <div
+          data-aos="fade-left"
+          data-aos-delay="70"
+          data-aos-duration="1500"
+          data-aos-mirror="true"
+          data-aos-easing="linear"
+           className="right">
             <div className="right_img">
               <img src={hero} alt="" />
             </div>
