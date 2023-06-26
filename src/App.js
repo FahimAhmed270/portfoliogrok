@@ -7,6 +7,7 @@ import Portfolio from './Component/Portfolio/Portfolio'
 import Resume from './Component/Resume/Resume'
 import Skill from './Component/Skill/Skill'
 import Contact from './Component/Contact/Contact'
+import Footer from './Component/Footer'
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Resume/>
       <Skill/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

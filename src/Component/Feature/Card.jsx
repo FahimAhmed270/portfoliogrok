@@ -5,7 +5,7 @@ const Card = ({ icon, title, desc }) => {
     <>
       <div
         data-aos="fade-right"
-        // data-aos-delay="60"
+        data-aos-delay="60"
         // data-aos-duration="1200"
         data-aos-mirror="true"
         data-aos-easing="linear"

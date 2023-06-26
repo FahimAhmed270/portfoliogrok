@@ -18,9 +18,13 @@ const Portfolio = () => {
     <>
       <section className="Portfolio top" id="#project">
         <div className="container">
-          <div className="heading text-center">
+          <div
+          data-aos="fade-up"
+          data-aos-mirror="true"
+          data-aos-easing="linear"
+          className="heading text-center">
             <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
-            <h1>My Portfolio</h1>
+            <h1>My Project</h1>
           </div>
           <div className="content grid">
             {Portfolio_data.map((value, index) => {

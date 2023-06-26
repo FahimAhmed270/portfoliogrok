@@ -1,18 +1,36 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Skill.css'
 import ProgressBar from "@ramonak/react-progress-bar";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Skill = () => {
+    // AOS
+    useEffect(() => {
+        AOS.init({
+            duration: 1500
+        })
+    }, [])
+
     return (
         <>
             <section id='skill' className='skill'>
                 <div className="container top">
-                    <div className="heading text-center">
+                    <div
+                        data-aos="fade-up"
+                        data-aos-mirror="true"
+                        data-aos-easing="linear"
+                        className="heading text-center">
                         <h4>2+ YEARS OF EXPERIENCE</h4>
                         <h1>My Skills</h1>
                     </div>
                     <div className="skill-content">
-                        <div className="design">
+                        <div
+                            data-aos="fade-right"
+                            data-aos-mirror="true"
+                            data-aos-easing="linear"
+
+                            className="design">
                             <div className="skill-span">
                                 <p>HTML</p>
                                 <ProgressBar
@@ -41,8 +59,13 @@ const Skill = () => {
                                     bgColor='#ff014f'
                                 />
                             </div>
-                        </div>     
-                        <div className="development">
+                        </div>
+                        <div
+                            data-aos="fade-left"
+                            data-aos-mirror="true"
+                            data-aos-easing="linear"
+
+                            className="development">
                             <div className="skill-span">
                                 <p>React</p>
                                 <ProgressBar

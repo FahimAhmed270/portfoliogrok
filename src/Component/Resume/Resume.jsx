@@ -9,7 +9,7 @@ const Resume = () => {
     // AOS
     useEffect(() => {
         AOS.init({
-            duration: 1000
+            duration: 1500
         })
     }, [])
 
@@ -17,7 +17,11 @@ const Resume = () => {
         <>
             <section className="Resume" id="resume">
                 <div className="container top">
-                    <div className="heading text-center">
+                    <div
+                     data-aos="fade-up"
+                     data-aos-mirror="true"
+                     data-aos-easing="linear"
+                    className="heading text-center">
                         <h4>2+ YEARS OF EXPERIENCE</h4>
                         <h1>My Resume</h1>
                     </div>

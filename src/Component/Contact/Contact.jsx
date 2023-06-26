@@ -1,8 +1,10 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import contact1 from "./contact1.png"
 import "./Contact.css"
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -35,17 +37,33 @@ const Contact = () => {
 	`
     )
   }
+
+  // AOS
+  useEffect(() => {
+    AOS.init({
+      duration: 1500
+    })
+  }, [])
+
   return (
     <>
       <section className='Contact' id='contact'>
         <div className='container top'>
-          <div className='heading text-center'>
+          <div
+            data-aos="fade-up"
+            data-aos-mirror="true"
+            data-aos-easing="linear"
+            className='heading text-center'>
             <h4>CONTACT</h4>
             <h1>Contact With Me</h1>
           </div>
 
           <div className='content d_flex'>
-            <div className='left'>
+            <div
+              data-aos="fade-left"
+              data-aos-mirror="true"
+              data-aos-easing="linear"
+              className='left'>
               <div className='box box_shodow'>
                 <div className='img'>
                   <img src={contact1} alt='' />
@@ -61,21 +79,25 @@ const Contact = () => {
                       </button>
                     </a>
                     <a href="https://www.linkedin.com/in/md-fahim-ahmed-87a928246/" target='_blank'>
-                    <button className='btn_shadow'>
-                      <FaLinkedinIn />
-                    </button>
+                      <button className='btn_shadow'>
+                        <FaLinkedinIn />
+                      </button>
                     </a>
                     <a href="mailto:fahimahmed54270@gmail.com">
-                    <button className='btn_shadow'>
-                      <SiGmail/>
-                    </button>
+                      <button className='btn_shadow'>
+                        <SiGmail />
+                      </button>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className='right box_shodow'>
+            <div
+              data-aos="fade-right"
+              data-aos-mirror="true"
+              data-aos-easing="linear"
+              className='right box_shodow'>
               <form onSubmit={formSubmit}>
                 <div className='f_flex'>
                   <div className='input row'>

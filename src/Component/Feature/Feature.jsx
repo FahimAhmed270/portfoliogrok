@@ -10,7 +10,7 @@ const Feature = () => {
     // AOS
     useEffect(() => {
       AOS.init({
-        duration:1300
+        duration: 2000
       })
     }, [])
 
@@ -18,7 +18,11 @@ const Feature = () => {
     <>
       <section className="feature top" id="features">
         <div className="container">
-          <div className="heading">
+          <div
+          data-aos="fade-up"
+          data-aos-mirror="true"
+          data-aos-easing="linear"
+          className="heading">
             <h4>Features</h4>
             <h1>WHAT I DO</h1>
           </div>
